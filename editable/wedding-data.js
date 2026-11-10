@@ -19,42 +19,18 @@ window.WEDDING_DATA = {
 
   // Primary event (for countdown timer and meta tags)
   event: {
-    title: "Wedding Ceremony",
-    startsAt: "2026-11-25T11:00:00+05:30",
-    endsAt: "2026-11-25T16:00:00+05:30",
-    dateLabel: "25 . 11 . 2026",
-    dayLabel: "Wednesday",
+    title: "Reception",
+    startsAt: "2026-12-01T19:00:00+05:30",
+    endsAt: "2026-12-01T23:59:00+05:30",
+    dateLabel: "01 . 12 . 2026",
+    dayLabel: "Tuesday",
     timeLabel: "",
-    dressCode: "Traditional Wedding Attire",
-    note: "", // Reception note removed per customer request
+    dressCode: "",
+    note: "",
   },
 
-  // Multi-event arched cards in chronological order (Lagan Sagai, Wedding Ceremony, Reception)
+  // Event arched card (Reception only)
   events: [
-    {
-      title: "Lagan Sagai Ceremony",
-      dateLabel: "21 . 11 . 2026",
-      dayLabel: "Saturday",
-      timeLabel: "5:00 PM Onwards",
-      venueName: "Bhagmalpuram",
-      venueAddress: "Chi-2, Greater Noida, Uttar Pradesh",
-      dressCode: "",
-      note: "",
-      calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Lagan+Sagai+Ceremony+%E2%80%94+Piyush+%26+Bhumika&dates=20261121T113000Z%2F20261121T163000Z&details=Lagan+Sagai+Ceremony&location=https%3A%2F%2Fmaps.app.goo.gl%2FKQC2dWdGuCnG964r7",
-      directionsUrl: "https://maps.app.goo.gl/KQC2dWdGuCnG964r7",
-    },
-    {
-      title: "Wedding Ceremony",
-      dateLabel: "25 . 11 . 2026",
-      dayLabel: "Wednesday",
-      timeLabel: "11:00 AM",
-      venueName: "Jaypee Residency Manor",
-      venueAddress: "Barlow Ganj, Mussoorie, Uttarakhand",
-      dressCode: "Traditional Wedding Attire",
-      note: "",
-      calendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+Ceremony+%E2%80%94+Piyush+%26+Bhumika&dates=20261125T053000Z%2F20261125T103000Z&details=Wedding+Ceremony&location=Jaypee+Residency+Manor%2C+Barlow+Ganj%2C+Mussoorie%2C+Uttarakhand",
-      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=30.4598,78.0742",
-    },
     {
       title: "Reception",
       dateLabel: "01 . 12 . 2026",
@@ -69,26 +45,8 @@ window.WEDDING_DATA = {
     },
   ],
 
-  // Multiple event venues with Google Maps directions
+  // Event venue with Google Maps directions (Reception only)
   venues: [
-    {
-      eventTitle: "Lagan Sagai Ceremony",
-      date: "Saturday, 21 November 2026",
-      time: "Lagan Sagai: 05:00 PM · Dinner: 06:00 PM",
-      name: "Bhagmalpuram",
-      address: "Chi-2, Greater Noida, Uttar Pradesh",
-      mapsUrl: "https://maps.app.goo.gl/KQC2dWdGuCnG964r7",
-      directionsUrl: "https://maps.app.goo.gl/KQC2dWdGuCnG964r7",
-    },
-    {
-      eventTitle: "Wedding Ceremony",
-      date: "Wednesday, 25 November 2026",
-      time: "11:00 AM",
-      name: "Jaypee Residency Manor",
-      address: "Barlow Ganj, Mussoorie, Uttarakhand",
-      mapsUrl: "https://www.google.com/maps/search/?api=1&query=Jaypee+Residency+Manor%2C+Mussoorie",
-      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=30.4598,78.0742",
-    },
     {
       eventTitle: "Reception",
       date: "Tuesday, 01 December 2026",
@@ -101,11 +59,11 @@ window.WEDDING_DATA = {
   ],
 
   venue: {
-    name: "Jaypee Residency Manor",
-    address: "Barlow Ganj, Mussoorie, Uttarakhand",
-    mapsQuery: "Jaypee Residency Manor, Mussoorie",
-    lat: 30.4598,
-    lng: 78.0742,
+    name: "The Weddings Dot (Hall Darbar)",
+    address: "Opp. Sparsh Global School, Noida Greater Noida Link Road, Dadri",
+    mapsQuery: "The Weddings Dot, Opp. Sparsh Global School, Dadri",
+    lat: 28.5679,
+    lng: 77.5295,
   },
 
   weddingCard: {
